@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+!.env.example
+
+# Generated production jobs and media do not belong in the Skill repository.
+work/
+jobs/
+outputs/
+renders/
+*.mp4
+*.mov
+*.wav
+*.mp3
+config.bat
+node_modules
